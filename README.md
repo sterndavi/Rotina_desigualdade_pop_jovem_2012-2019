@@ -1,4 +1,4 @@
-# ROTINA ESTATISTICA PARA EXTRAIR DADOS DE DESIGUALDADE DE RENDA PARA POPULAÇÃO JOVEM
+# ROTINA PARA EXTRAIR DADOS DE DESIGUALDADE DE RENDA PARA POPULAÇÃO JOVEM
 
 o calculo do QSR por algum motivo que desconheço não está funcionando
 quando os dados são baixados diretamente com get_pnad(). Então é nece-
