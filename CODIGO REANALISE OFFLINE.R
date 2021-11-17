@@ -6,12 +6,13 @@
   }
 
 
-
 for (x in 2012:2019){
   
   y = "ginirendamaioque0"
   z = "ginirenda0"
   t = "rendamediadefl"
+  q = "qsr"
+  out = paste(here(),"/Output/", sep = "")
   data = paste(here(),"/input_PNADc_2012-2019/","PNADC_",x,"_visita1.txt", sep = "")
   input = paste(here(),"/input_PNADc_2012-2019/","input_PNADC_",x,"_visita1.txt", sep = "")
   dicionario = paste(here(),"/input_PNADc_2012-2019/","dicionario_PNADC_microdados_", x, "_visita1.xls", sep = "")
@@ -258,7 +259,7 @@ for (x in 2012:2019){
         ginixj18_24, ginixj25_29),
       sep = ",",
       file = paste(
-        y,x,".csv",
+        out,y,x,".csv",
         sep = ""
       ),
       row.names = F,
@@ -274,7 +275,7 @@ for (x in 2012:2019){
       ),
       sep = ",",
       file = paste(
-        z,x,".csv",
+        out,z,x,".csv",
         sep = ""
       ),
       row.names = F,
@@ -291,7 +292,7 @@ for (x in 2012:2019){
         renda18_24,renda25_29),
       sep = ",",
       file = paste(
-        t,x,".csv",
+        out,t,x,".csv",
         sep = ""
       ),
       row.names= F,
@@ -307,7 +308,7 @@ for (x in 2012:2019){
       ),
       sep = ",",
       file = paste(
-        q,x,".csv",
+        out,q,x,".csv",
         sep = ""
       ),
       row.names = F,
